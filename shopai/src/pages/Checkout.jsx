@@ -25,7 +25,7 @@ export default function Checkout() {
     setLoading(true)
     try {
       const fullAddress = `${form.firstName} ${form.lastName}, ${form.address}, ${form.city}, ${form.state} - ${form.pincode}`
-      const res = await fetch('http://localhost:5000/api/orders', {
+      const res = await fetch('https://shopai-backend-dg52.onrender.com/api/orders', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

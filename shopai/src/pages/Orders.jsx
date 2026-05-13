@@ -29,7 +29,7 @@ export default function Orders() {
   useEffect(() => {
     const fetchOrders = async () => {
       try {
-        const res = await fetch('http://localhost:5000/api/orders/myorders', {
+        const res = await fetch('https://shopai-backend-dg52.onrender.com/api/orders/myorders', {
           headers: { Authorization: `Bearer ${token}` }
         })
         const data = await res.json()
