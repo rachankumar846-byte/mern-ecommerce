@@ -3,7 +3,7 @@
 A full-stack e-commerce platform with an integrated AI shopping assistant, built with React, Node.js, and MongoDB.
 
 ## 🚀 Live Demo
-**Coming soon after deployment**
+**[https://mern-ecommerce-rho-cyan.vercel.app](https://mern-ecommerce-rho-cyan.vercel.app)**
 
 ## ✨ Features
 - 🤖 **AI Shopping Assistant** — Groq AI powered chatbot to help users find products
