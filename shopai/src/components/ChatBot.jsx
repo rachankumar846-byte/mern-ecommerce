@@ -27,7 +27,7 @@ export default function ChatBot() {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': 'Bearer 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'
+          'Authorization': `Bearer ${import.meta.env.VITE_GROQ_API_KEY}`
         },
         body: JSON.stringify({
           model: 'llama-3.3-70b-versatile',
